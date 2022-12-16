@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background: linear-gradient(45deg, rgb(47, 48, 46), rgb(16, 17, 17));
+    font-family: "Sansita Swashed", cursive;
+    padding: 50px 50px;
+    background-image:url("fon2.jpg") ;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-radius: 20px;
+}  
+.center { /*блок*/
+    position: relative;
+    padding: 50px 50px;
+    background-image:url("fon2.jpg") ;
+    border-radius: 20px;
+    border: 2px solid coral;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}  
+.center h1 {/*Оставить отзыв*/
+    font-size: 2em;
+    border-left: 5px solid coral;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.inputbox {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 80%;
+    height: 40px;
+    margin-bottom: 30px;
+}
+.right{
+    margin-right: 30%;
+}
+.center .inputbox input {
+    margin-bottom: 50px;
+    position: relative;
+    width: 100%;
+    border: 2px solid coral;
+    background: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.2em;
+    color:rgb(255, 255, 255);
+}
+.otzv{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.center .inputbox span {/*Имя и почта*/
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    font-size: 1em;
+    transition: 0.6s;
+    font-family: sans-serif;
+    color: coral;
+}
+
+.center .inputbox:hover [type="button"] {
+  background: linear-gradient(45deg, rgb(255, 166, 0), rgb(231, 108, 108));
+}
